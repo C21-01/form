@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма для введення особистої інформації</title>
     <style>
-        /* Додайте стилі для полів вводу та кнопки */
+        /* Стилі для фону і тексту */
+        body {
+            background-color: #FFC0CB; /* Рожевий фон */
+            color: #ffffff; /* Білий текст */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Стилі для полів вводу та кнопки */
         label {
             display: block;
             font-weight: bold;
@@ -14,15 +21,17 @@
         input[type="text"],
         input[type="email"],
         input[type="password"] {
-            width: 100%;
+            width: calc(100% / 3);
             padding: 10px;
             margin-bottom: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid #fff; /* Біла рамка */
             border-radius: 5px;
+            background-color: #fff; /* Білий фон */
+            color: #FFC0CB; /* Рожевий текст */
         }
 
         input[type="submit"] {
-            background-color: #007BFF;
+            background-color: #FF69B4; /* Рожевий фон кнопки */
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -31,7 +40,7 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #0056b3;
+            background-color: #FF1493; /* Рожевий фон кнопки при наведенні */
         }
     </style>
 </head>
